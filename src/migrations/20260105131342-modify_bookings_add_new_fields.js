@@ -11,7 +11,7 @@ module.exports = {
      */
     await queryInterface.addColumn(
       'Bookings',
-      'noOfSeates',
+      'noOfSeats',
       {
         type:Sequelize.INTEGER,
         allowNull:false,
